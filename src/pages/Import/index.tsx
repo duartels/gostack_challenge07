@@ -38,7 +38,7 @@ const Import: React.FC = () => {
   }
 
   function submitFile(files: File[]): void {
-    console.log(files[0]);
+    // console.log(files[0]);
     const file: FileProps = {
       file: files[0],
       name: files[0].name,
